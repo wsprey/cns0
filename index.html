@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cns.css">
+</head>
+<body>
+
+    <table border="1" cellpadding="20">
+        <tr>
+          <th>Question</th>
+          <th>Answer</th>
+        </tr>
+        <tr>
+          <td>1. Different types of cables used in networking and connectors:</td>
+          <td>
+            ○ Twisted Pair Cable (Cat5e, Cat6, etc.): Connector - RJ45 <br>
+            ○ Coaxial Cable: Connector - BNC, F-type <br>
+            ○ Fiber Optic Cable: Connectors - LC, SC, ST
+          </td>
+        </tr>
+        <tr>
+          <td>2. Maximum segment size:</td>
+          <td>
+            ○ Twisted Pair: 100 meters (328 feet) for Cat5e, Cat6. <br>
+            ○ Fiber Optic: Depends on the type; for Single-mode, it can range up to 40 km or more, while Multimode fiber is typically around 2 km.
+          </td>
+        </tr>
+        <tr>
+          <td>3. Wires and twists in UTP (Unshielded Twisted Pair):</td>
+          <td>
+            ○ UTP typically consists of 8 wires grouped into 4 pairs. Each pair is twisted to reduce interference.
+          </td>
+        </tr>
+        <tr>
+          <td>4. Cable used in LAN:</td>
+          <td>○ Twisted Pair (Cat5e, Cat6) is commonly used for Ethernet LAN.</td>
+        </tr>
+        <tr>
+          <td>5. Use of firewall:</td>
+          <td>
+            ○ A firewall controls incoming and outgoing network traffic by filtering data packets based on a set of security rules, acting as a barrier between secure internal networks and untrusted external ones.
+          </td>
+        </tr>
+        <tr>
+          <td>6. Different topologies, their advantages and disadvantages:</td>
+          <td>
+           <b> ○ Star Topology: </b><br>
+            ■ Adv: Easy to install and manage, if one cable fails it doesn’t affect the others. <br>
+            ■ Disadv: If the central hub fails, the entire network goes down. <br>
+         <b> ○ Bus Topology:</b> <br>
+            ■ Adv: Simple to set up and requires less cable. <br>
+            ■ Disadv: If the main cable fails, the whole network goes down; difficult to troubleshoot. <br>
+            <b> ○ Ring Topology:</b> <br>
+            ■ Adv: Data travels in one direction, reducing the chance of packet collisions. <br>
+            ■ Disadv: A failure in any cable can bring down the entire network. <br>
+            <b> ○ Mesh Topology:</b> <br>
+            ■ Adv: Offers the highest fault tolerance and redundancy. <br>
+            ■ Disadv: Expensive and complex to install due to a large amount of cabling. <br>
+            **Preferred Topology**: Star topology is generally preferred due to ease of troubleshooting and managing network nodes.
+          </td>
+        </tr>
+        <tr>
+          <td>7. IEEE standards for Ethernet LAN:</td>
+          <td>
+            ○ 802.3 for Ethernet. <br>
+            ○ 802.3u for Fast Ethernet. <br>
+            ○ 802.3ab for Gigabit Ethernet over UTP. <br>
+            ○ 802.3z for Gigabit Ethernet over fiber.
+          </td>
+        </tr>
+        <tr>
+          <td>8. Considerations when designing a network for 10 PCs:</td>
+          <td>
+            ○ Type of cable (e.g., Cat6), switches, routers. <br>
+            ○ IP addressing scheme (static or dynamic). <br>
+            ○ Network security (firewalls, encryption). <br>
+            ○ Future scalability.
+          </td>
+        </tr>
+        <tr>
+          <td>9. 7 Layers of OSI model:</td>
+          <td>
+            ○ Physical <br>
+            ○ Data Link <br>
+            ○ Network <br>
+            ○ Transport <br>
+            ○ Session <br>
+            ○ Presentation <br>
+            ○ Application
+          </td>
+        </tr>
+        <tr>
+          <td>10. Working of each layer:</td>
+          <td>
+            ○ Physical Layer: Deals with hardware transmission technologies (e.g., cables, switches). <br>
+            ○ Data Link Layer: Provides node-to-node data transfer (e.g., MAC addressing, Ethernet). <br>
+            ○ Network Layer: Manages data routing, packet forwarding (e.g., IP address). <br>
+            ○ Transport Layer: Ensures reliable data transmission (e.g., TCP, UDP). <br>
+            ○ Session Layer: Manages sessions between applications. <br>
+            ○ Presentation Layer: Handles data formatting, encryption. <br>
+            ○ Application Layer: Provides services to end users (e.g., HTTP, FTP).
+          </td>
+        </tr>
+        <tr>
+          <td>11. OSI and TCP/IP reference model diagrams:</td>
+          <td>○ OSI: 7 layers (mentioned above). <br> ○ TCP/IP: 4 layers (Network Access, Internet, Transport, Application).</td>
+        </tr>
+        <tr>
+          <td>12. Difference between OSI and TCP/IP:</td>
+          <td>
+            ○ OSI is a conceptual model with 7 layers, while TCP/IP is a practical implementation with 4 layers. <br>
+            ○ OSI is protocol-independent, whereas TCP/IP is based on a specific protocol suite.
+          </td>
+        </tr>
+        <tr>
+          <td>13. Protocols at each OSI layer:</td>
+          <td>
+            ○ Application: HTTP, FTP, DNS <br>
+            ○ Presentation: SSL, TLS <br>
+            ○ Session: RPC, NetBIOS <br>
+            ○ Transport: TCP, UDP <br>
+            ○ Network: IP, ICMP <br>
+            ○ Data Link: Ethernet, PPP <br>
+            ○ Physical: Ethernet cables, wireless standards.
+          </td>
+        </tr>
+        <tr>
+          <td>14. Networking devices in TCP/IP layers:</td>
+          <td>
+            ○ Network Access: Switches, Hubs, NICs <br>
+            ○ Internet: Routers <br>
+            ○ Transport: Firewalls <br>
+            ○ Application: Proxy Servers, Web Servers
+          </td>
+        </tr>
+        <tr>
+          <td>15. ATM (Asynchronous Transfer Mode):</td>
+          <td>○ A high-speed networking standard that supports data, voice, and video transmission over the same network.</td>
+        </tr>
+        <tr>
+          <td>16. Tunneling:</td>
+          <td>○ A process where one protocol is encapsulated within another protocol to enable secure data transmission across public networks.</td>
+        </tr>
+        <tr>
+          <td>17. Fragmentation:</td>
+          <td>○ The process of breaking a packet into smaller pieces to fit the maximum transmission unit (MTU) of the network.</td>
+        </tr>
+        <tr>
+            <td>20. Two types of transmission technology</td>
+            <td>Broadcast (one-to-many) and Point-to-Point (one-to-one).</td>
+        </tr>
+        <tr>
+            <td>21. Subnetting</td>
+            <td>A technique to divide a network into smaller sub-networks to efficiently use IP addresses and improve security.</td>
+        </tr>
+        <tr>
+            <td>22. Difference between communication and transmission</td>
+            <td>Communication refers to the process of exchanging data, while transmission refers to the act of sending data from one place to another.</td>
+        </tr>
+        <tr>
+            <td>23. Router</td>
+            <td>A device that forwards data packets between networks, directing traffic based on IP addresses.</td>
+        </tr>
+        <tr>
+            <td>24. Point-to-Point Protocol (PPP)</td>
+            <td>A data link protocol used to establish a direct connection between two nodes.</td>
+        </tr>
+        <tr>
+            <td>25. MAC Address</td>
+            <td>A 48-bit unique identifier for network interfaces, usually written in hexadecimal format (e.g., 00:1A:2B:3C:4D:5E).</td>
+        </tr>
+        <tr>
+            <td>26. IP address layer and size</td>
+            <td>IP addresses work at the Network layer of the OSI model. IPv4 is 32 bits; IPv6 is 128 bits.</td>
+        </tr>
+        <tr>
+            <td>27. Classes in IPv4 and their ranges</td>
+            <td>Class A: 1.0.0.0 to 126.255.255.255<br>Class B: 128.0.0.0 to 191.255.255.255<br>Class C: 192.0.0.0 to 223.255.255.255</td>
+        </tr>
+        <tr>
+            <td>28. Number of networks and hosts</td>
+            <td>Class A: 128 networks, ~16 million hosts<br>Class B: 16,384 networks, ~65,000 hosts<br>Class C: 2 million networks, 254 hosts.</td>
+        </tr>
+        <tr>
+            <td>29. Default subnet masks</td>
+            <td>Class A: 255.0.0.0<br>Class B: 255.255.0.0<br>Class C: 255.255.255.0</td>
+        </tr>
+        <tr>
+            <td>30. Physical and Logical Address</td>
+            <td>Physical Address refers to MAC address.<br>Logical Address refers to IP address.</td>
+        </tr>
+        <tr>
+            <td>31. Types of transmission media</td>
+            <td>Guided (Twisted Pair, Fiber Optic)<br>Unguided (Wireless)</td>
+        </tr>
+        <tr>
+            <td>32-36. Repeaters, Bridges, Routers, Gateways, Switches</td>
+            <td>Repeater: Amplifies signals to extend the transmission distance.<br>Bridge: Connects two LANs at the data link layer.<br>Router: Routes data between networks.<br>Gateway: Translates protocols between networks.<br>Switch: Directs data within a network (Layer 2 or Layer 3).</td>
+        </tr>
+        <tr>
+            <td>37-40. Hub vs Switch, Switch vs Router, Cutoff switch, Manageable and Unmanageable Switch</td>
+            <td>Hub: Broadcasts data to all devices.<br>Switch: Directs data to specific devices.<br>Router: Forwards data across networks.<br>Cutoff switch: Stops power flow to prevent overload.<br>Manageable switch: Can be configured; Unmanageable: Basic functionality.</td>
+        </tr>
+        <tr>
+            <td>41. Web server</td>
+            <td>Hosts websites and serves web pages to users.</td>
+        </tr>
+        <tr>
+            <td>42. Broadcast, Multicast, Unicast</td>
+            <td>Broadcast: One-to-all.<br>Multicast: One-to-many.<br>Unicast: One-to-one.</td>
+        </tr>
+        <tr>
+            <td>43. FDDI (Fiber Distributed Data Interface)</td>
+            <td>A standard for transmitting data over fiber optic cables in a ring topology.</td>
+        </tr>
+            <td>44. Token Ring/Bus</td>
+            <td>Token Ring: Nodes take turns to send data using a token.<br>Token Bus: Similar to Token Ring but uses a bus topology.</td>
+        </tr>
+        <tr>
+            <td>45. IEEE standards from 802.2 to 802.16</td>
+            <td>802.2: Logical Link Control.<br>802.11: Wi-Fi.<br>802.15: Wireless Personal Area Networks (WPAN).<br>802.16: WiMAX.</td>
+        </tr>
+        <tr>
+            <td>46. What is the IP address of our server?</td>
+            <td>The IP address of a server depends on the network setup. You can check the server's IP address using commands like <code>ipconfig</code> (Windows) or <code>ifconfig</code> (Linux) or ask the IT department for the assigned static IP.</td>
+        </tr>
+        <tr>
+            <td>47. What are the two lines used in our organization for internet connection? Give 3 points where the difference is there.</td>
+            <td>DSL (Digital Subscriber Line) and Fiber Optic connections, or Leased Line and Broadband connections. <br><b>Differences:</b><br>1. Speed: Fiber offers higher speeds.<br>2. Reliability: Leased Line is more stable.<br>3. Cost: Leased Line is more expensive.</td>
+        </tr>
+        <tr>
+            <td>48. What is the difference between leased line and dial-up connection?</td>
+            <td><b>Leased Line:</b> A dedicated, private line with consistent high speeds.<br><b>Dial-up:</b> Uses telephone lines with slower, temporary connections (up to 56 kbps).<br><b>Key Differences:</b><br>1. Speed: Leased lines offer high speeds, dial-up is slow.<br>2. Connection: Leased lines are always-on, dial-up is temporary.<br>3. Cost: Leased lines are more expensive than dial-up.</td>
+        </tr>
+        <tr>
+            <td>49. What is meant by ISP?</td>
+            <td>ISP (Internet Service Provider): A company that provides internet access to individuals or organizations (e.g., Comcast, AT&T).</td>
+        </tr>
+        <tr>
+            <td>50. What is ICMP?</td>
+            <td>ICMP (Internet Control Message Protocol): A protocol used to send error messages and network diagnostics (e.g., ping).</td>
+        </tr>
+        <tr>
+            <td>51. What are the data units at different layers of the TCP/IP protocol suite?</td>
+            <td>1. Application Layer: Data<br>2. Transport Layer: Segment (TCP) or Datagram (UDP)<br>3. Network Layer: Packet<br>4. Data Link Layer: Frame<br>5. Physical Layer: Bits</td>
+        </tr>
+        <tr>
+            <td>52. What is the difference between ARP and RARP?</td>
+            <td><b>ARP:</b> Translates an IP address into a MAC address.<br><b>RARP:</b> Translates a MAC address into an IP address.</td>
+        </tr>
+        <tr>
+            <td>53. What is the minimum and maximum length of the header in the TCP segment and IP datagram?</td>
+            <td><b>TCP Header:</b> Minimum: 20 bytes, Maximum: 60 bytes.<br><b>IP Header:</b> Minimum: 20 bytes, Maximum: 60 bytes.</td>
+        </tr>
+        <tr>
+            <td>54. What is the difference between TFTP and FTP application layer protocols?</td>
+            <td><b>TFTP:</b> A simpler, faster protocol without authentication, uses UDP.<br><b>FTP:</b> A more robust protocol with authentication, uses TCP.</td>
+        </tr>
+        <tr>
+            <td>55. What are the major types of networks?</td>
+            <td><b>LAN:</b> Local Area Network (e.g., office network).<br><b>WAN:</b> Wide Area Network (e.g., internet).<br><b>MAN:</b> Metropolitan Area Network (e.g., citywide network).<br><b>PAN:</b> Personal Area Network (e.g., Bluetooth).</td>
+        </tr>
+        <tr>
+            <td>56. What are the important topologies for networks?</td>
+            <td>1. Bus Topology<br>2. Star Topology<br>3. Ring Topology<br>4. Mesh Topology</td>
+        </tr>
+        <tr>
+            <td>57. What is mesh network?</td>
+            <td>A network where each node is connected to multiple other nodes, providing redundancy and fault tolerance.</td>
+        </tr>
+        <tr>
+            <td>58. Why should you care about the OSI Reference Model?</td>
+            <td>The OSI model standardizes networking protocols, aiding in troubleshooting and understanding communication layers.</td>
+        </tr>
+        <tr>
+            <td>59. What is VPN?</td>
+            <td>A secure, encrypted connection over a public network, often used for remote access or privacy.</td>
+        </tr>
+        <tr>
+            <td>60. What is Virtual LAN?</td>
+            <td>A logical segmentation of a network to isolate or manage traffic within a physical network.</td>
+        </tr>
+        <tr>
+            <td >61. What is packet filter?</td>
+            <td >A packet filter is a network security mechanism that controls data flow based on IP addresses, protocols, and ports, blocking or allowing data packets based on predefined rules.</td>
+        </tr>
+        <tr>
+            <td >62. What is traffic shaping?</td>
+            <td >Traffic shaping is a technique used to control the amount of data sent over a network at a time to ensure efficient network performance and avoid congestion.</td>
+        </tr>
+        <tr>
+            <td >63. What is meant by flow control?</td>
+            <td >Flow control regulates the amount of data sent between sender and receiver to ensure the receiver doesn’t get overwhelmed with too much data.</td>
+        </tr>
+        <tr>
+            <td >64. What is meant by congestion control?</td>
+            <td >Congestion control ensures that network resources aren’t overloaded by limiting the amount of data being transmitted to avoid packet loss and delays.</td>
+        </tr>
+        <tr>
+            <td >65. What is IGP (Interior Gateway Protocol)?</td>
+            <td >IGP refers to protocols used within a single autonomous system for routing, like OSPF and RIP.</td>
+        </tr>
+        <tr>
+            <td >66. What is EGP (Exterior Gateway Protocol)?</td>
+            <td >EGP refers to protocols used between different autonomous systems, such as BGP (Border Gateway Protocol).</td>
+        </tr>
+        <tr>
+            <td >67. What is an autonomous system?</td>
+            <td >An autonomous system (AS) is a collection of IP networks under the control of a single organization, with its own routing policy.</td>
+        </tr>
+        <tr>
+            <td >68. What is BGP (Border Gateway Protocol)?</td>
+            <td >BGP is the protocol used for routing data between different autonomous systems on the internet.</td>
+        </tr>
+        <tr>
+            <td >69. What is OSPF?</td>
+            <td >OSPF (Open Shortest Path First) is an IGP protocol used within an autonomous system to find the shortest path for data to travel.</td>
+        </tr>
+        <tr>
+            <td >70. What is RIP (Routing Information Protocol)?</td>
+            <td >RIP is a distance-vector routing protocol that determines the best route for data based on hop count.</td>
+        </tr>
+        <tr>
+            <td >71. What is PPP?</td>
+            <td >PPP (Point-to-Point Protocol) is used to establish a direct connection between two network nodes, often used in dial-up connections.</td>
+        </tr>
+        <tr>
+            <td >72. What is DHCP (Dynamic Host Configuration Protocol)?</td>
+            <td >DHCP automatically assigns IP addresses and other network configurations to devices on a network.</td>
+        </tr>
+        <tr>
+            <td >73. What is SNMP (Simple Network Management Protocol)?</td>
+            <td >SNMP is used for managing and monitoring network devices like routers, switches, and servers.</td>
+        </tr>
+        <tr>
+            <td >74. How are current IPv4 addresses allocated?</td>
+            <td >IPv4 addresses are allocated by regional internet registries (RIRs) based on the geographic location of the organization.</td>
+        </tr>
+        <tr>
+            <td >75. How do IPv6 addresses differ from addresses used in current IP version?</td>
+            <td >IPv6 uses 128-bit addresses, which provides a vastly larger address space than the 32-bit IPv4 addresses.</td>
+        </tr>
+        <tr>
+            <td >76. How does IPv6 address allocation differ from address allocation used with IPv4?</td>
+            <td >IPv6 uses a hierarchical structure to allocate addresses globally, regionally, and locally. IPv4 uses a mix of classful and classless (CIDR) methods.</td>
+        </tr>
+        <tr>
+            <td >77. How is IPv6 supposed to solve address allocation problems with IPv4?</td>
+            <td >IPv6 solves the exhaustion of IPv4 addresses by providing a much larger address pool (128-bit addresses versus 32-bit).</td>
+        </tr>
+        <tr>
+            <td >78. How are addresses belonging to different types differentiated from each other?</td>
+            <td >IPv4 addresses are classified into A, B, C, D, and E based on the first few bits. For example, Class A starts with 0, Class B with 10, and so on.</td>
+        </tr>
+        <tr>
+            <td >79. What is supernetting and subnetting?</td>
+            <td >Subnetting divides a network into smaller sub-networks for better organization and management. Supernetting combines multiple networks into a larger one, typically to reduce the number of routes in a routing table.</td>
+        </tr>
+        <tr>
+            <td >80. Write in decimal form the IP address C22F1582. To which address class does it belong? Write the address also in binary form.</td>
+            <td >Decimal form: 194.47.21.130. Class: Class C (range: 192.0.0.0 - 223.255.255.255). Binary form: 11000010.00101111.00010101.10000010.</td>
+        </tr>
+        <tr>
+            <td >81. What is the network part in the address 172.16.10.50/27? What is the host part?</td>
+            <td >Network part: 172.16.10.32. Host part: 18 (binary host part: 00010010).</td>
+        </tr>
+        <tr>
+            <td >82. How many subnets are available in the network mentioned above? How many hosts can be in one subnet?</td>
+            <td >Subnets: 8. Hosts per subnet: 30 (2<sup>5</sup> - 2).</td>
+        </tr>
+        <tr>
+            <td >83. What does the notation 211.22.23.0,3 mean? What addresses belong to this definition?</td>
+            <td >This notation means the first 3 bits are used for subnetting, referring to a range of subnets under the base address 211.22.23.0. The exact range depends on further context like the netmask.</td>
+        </tr>
+        <tr>
+            <td >84. What are networking commands? Explain each one?</td>
+            <td >Ipconfig: Displays the IP configuration of a computer (Windows). Traceroute: Shows the route packets take to reach a destination. Ping: Tests connectivity to a specific IP address. Nslookup: Looks up the DNS server for a specific domain.</td>
+        </tr>
+        <tr>
+            <td style="margin-top: 50px; margin-bottom: 50px;">85. When you give ping command, what is the output after that and also tell meaning of each term?</td>
+            <td style="margin-bottom: 40px;">The output typically shows: Reply from: Indicates the response from the destination. TTL (Time to Live): Number of hops the packet can make before being discarded. Time: The round-trip time for the packet. Loss: The percentage of packets lost during the test.</td>
+        </tr>
+        <tr>
+            <td >86. What is TFTP and how does it differ from FTP?</td>
+            <td >TFTP (Trivial File Transfer Protocol) is a simple protocol used for transferring files. Unlike FTP (File Transfer Protocol), TFTP does not provide authentication, encryption, or complex command sets. It uses UDP instead of TCP, making it faster but less reliable.</td>
+        </tr>
+        <tr>
+            <td >87. What are the main differences between TCP and UDP?</td>
+            <td >TCP (Transmission Control Protocol) is connection-oriented, ensuring reliable communication with error-checking and flow control. UDP (User Datagram Protocol) is connectionless, providing faster transmission without guarantees of delivery or order.</td>
+        </tr>
+        <tr>
+            <td >88. What is NAT and how does it work?</td>
+            <td >NAT (Network Address Translation) is a technique used to modify network address information in packet headers while in transit. It allows multiple devices on a local network to share a single public IP address, improving security and conserving IP addresses.</td>
+        </tr>
+        <tr>
+            <td >89. What is the purpose of a subnet mask?</td>
+            <td >A subnet mask is used to divide an IP address into network and host portions. It helps routers and switches determine whether a destination IP address is on the same subnet or requires routing.</td>
+        </tr>
+        <tr>
+            <td >90. What is DHCP and what role does it play in networking?</td>
+            <td >DHCP (Dynamic Host Configuration Protocol) automates the process of assigning IP addresses and other network configuration parameters to devices on a network, allowing them to communicate effectively.</td>
+        </tr>
+        <tr>
+            <td >91. What is a VPN and how does it work?</td>
+            <td >A VPN (Virtual Private Network) creates a secure, encrypted connection over a less secure network, allowing users to send and receive data as if their devices were directly connected to a private network.</td>
+        </tr>
+        <tr>
+            <td >92. What are the benefits of using a CDN?</td>
+            <td >A CDN (Content Delivery Network) improves website performance and availability by distributing content across multiple servers located around the world, reducing latency and load times.</td>
+        </tr>
+        <tr>
+            <td >93. What is an IP address?</td>
+            <td >An IP address is a unique identifier assigned to devices connected to a network, allowing them to communicate with each other. It can be either IPv4 (32-bit) or IPv6 (128-bit).</td>
+        </tr>
+        <tr>
+            <td >94. How does SSL/TLS work to secure communications?</td>
+            <td >SSL (Secure Sockets Layer) and TLS (Transport Layer Security) work by establishing a secure, encrypted connection between a client and a server through a process of authentication and key exchange.</td>
+        </tr>
+        <tr>
+            <td >95. What is the difference between a switch and a router?</td>
+            <td >A switch connects devices within a local area network (LAN) and forwards data based on MAC addresses. A router connects different networks and forwards data based on IP addresses.</td>
+        </tr>
+        <tr>
+            <td >96. What is a firewall and how does it work?</td>
+            <td >A firewall is a network security device that monitors and controls incoming and outgoing traffic based on predetermined security rules. It acts as a barrier between trusted and untrusted networks.</td>
+        </tr>
+        <tr>
+            <td >97. What is the OSI model?</td>
+            <td >The OSI (Open Systems Interconnection) model is a conceptual framework used to understand and implement networking protocols. It consists of seven layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application.</td>
+        </tr>
+        <tr>
+            <td >98. What is the difference between HTTP and HTTPS?</td>
+            <td >HTTP (Hypertext Transfer Protocol) is the standard protocol for transferring web pages, while HTTPS (HTTP Secure) adds a layer of security by encrypting data between the client and server using SSL/TLS.</td>
+        </tr>
+        <tr>
+            <td >99. What is a public key infrastructure (PKI)?</td>
+            <td >PKI is a framework that uses digital certificates and public-private key pairs to secure communications and transactions over networks. It enables users to exchange data securely.</td>
+        </tr>
+        <tr>
+            <td >100. What are the different types of malware?</td>
+            <td >Types of malware include viruses, worms, Trojans, ransomware, spyware, and adware, each designed to disrupt, damage, or gain unauthorized access to systems.</td>
+        </tr>
+        <tr>
+            <td >101. What is social engineering in cybersecurity?</td>
+            <td >Social engineering is the manipulation of individuals into divulging confidential information by exploiting human psychology rather than technical hacking techniques.</td>
+        </tr>
+        <tr>
+            <td >102. What is a man-in-the-middle attack?</td>
+            <td >A man-in-the-middle attack occurs when an attacker intercepts and alters communication between two parties without their knowledge, often to steal information.</td>
+        </tr>
+        <tr>
+            <td >103. What is phishing?</td>
+            <td >Phishing is a cyber attack that involves tricking individuals into providing sensitive information, such as passwords or credit card numbers, by impersonating a trustworthy entity.</td>
+        </tr>
+        <tr>
+            <td >104. What is a DDoS attack?</td>
+            <td >A DDoS (Distributed Denial of Service) attack aims to overwhelm a target's resources, such as a server or network, by flooding it with excessive traffic, rendering it unavailable.</td>
+        </tr>
+        <tr>
+            <td >105. What is data encryption?</td>
+            <td >Data encryption is the process of converting information into a code to prevent unauthorized access. It uses algorithms to ensure that only authorized parties can decrypt and access the original data.</td>
+        </tr>
+        <tr>
+            <td >106. What is a digital signature?</td>
+            <td >A digital signature is a cryptographic method used to verify the authenticity and integrity of a message, software, or digital document, providing assurance that it has not been altered.</td>
+        </tr>
+        <tr>
+            <td >107. What is a security breach?</td>
+            <td >A security breach is an incident that results in unauthorized access to data, applications, services, or devices, potentially leading to data loss or compromise.</td>
+        </tr>
+        <tr>
+            <td >108. What is risk management in cybersecurity?</td>
+            <td >Risk management in cybersecurity involves identifying, assessing, and mitigating risks to an organization’s information assets to protect against potential threats.</td>
+        </tr>
+        <tr>
+            <td >109. What is an intrusion detection system (IDS)?</td>
+            <td >An IDS is a device or software application that monitors network traffic for suspicious activity and alerts administrators of potential security breaches.</td>
+        </tr>
+        <tr>
+            <td >110. What is an intrusion prevention system (IPS)?</td>
+            <td >An IPS is a network security device that monitors traffic and can take immediate action to block or prevent malicious activities based on predefined rules.</td>
+        </tr>
+        <tr>
+            <td >111. What is the role of a cybersecurity analyst?</td>
+            <td >A cybersecurity analyst is responsible for protecting an organization’s computer systems and networks by monitoring, detecting, and responding to security incidents.</td>
+        </tr>
+        <tr>
+            <td >112. What is a threat model?</td>
+            <td >A threat model is a process used to identify potential threats to a system, assess the risks associated with those threats, and determine how to mitigate them.</td>
+        </tr>
+        <tr>
+            <td >113. What is a zero-day vulnerability?</td>
+            <td >A zero-day vulnerability is a security flaw in software that is unknown to the vendor and has not yet been patched, making it particularly dangerous until a fix is released.</td>
+        </tr>
+        <tr>
+            <td >114. What is a security policy?</td>
+            <td >A security policy is a formal document that outlines an organization’s approach to managing its information security, including rules and procedures for protecting data.</td>
+        </tr>
+        <tr>
+            <td >115. What is encryption at rest?</td>
+            <td >Encryption at rest refers to the protection of data stored on physical media, ensuring that it is inaccessible without the proper keys or credentials, even if the storage device is compromised.</td>
+        </tr>
+        <tr>
+            <td >116. What is encryption in transit?</td>
+            <td >Encryption in transit refers to the protection of data being transmitted over a network, ensuring that it cannot be intercepted or accessed by unauthorized parties during transmission.</td>
+        </tr>
+        <tr>
+            <td >117. What is multi-factor authentication (MFA)?</td>
+            <td >Multi-factor authentication (MFA) is a security mechanism that requires two or more forms of verification before granting access to a system or application, enhancing security beyond just a password.</td>
+        </tr>
+        <tr>
+            <td >118. What is a cybersecurity framework?</td>
+            <td >A cybersecurity framework is a set of guidelines and best practices that help organizations manage and reduce cybersecurity risk, often tailored to specific industries or regulatory requirements.</td>
+        </tr>
+        <tr>
+            <td >119. What is a cyber threat intelligence (CTI)?</td>
+            <td >Cyber threat intelligence (CTI) is information that helps organizations understand potential cyber threats and vulnerabilities, enabling them to make informed decisions about cybersecurity strategies.</td>
+        </tr>
+        <tr>
+            <td >120. What is the difference between symmetric and asymmetric encryption?</td>
+            <td >Symmetric encryption uses the same key for both encryption and decryption, while asymmetric encryption uses a pair of keys (public and private) for these processes, providing enhanced security.</td>
+        </tr>
+        <tr>
+            <td >121. What is the principle of least privilege?</td>
+            <td >The principle of least privilege is a security concept that recommends granting users only the access necessary to perform their job functions, minimizing potential security risks.</td>
+        </tr>
+        <tr>
+            <td >122. What is a botnet?</td>
+            <td >A botnet is a network of compromised computers or devices controlled by a malicious actor, often used to perform coordinated attacks or distribute malware.</td>
+        </tr>
+        <tr>
+            <td >123. What is ransomware?</td>
+            <td >Ransomware is a type of malware that encrypts a victim's files, demanding payment (ransom) for the decryption key, effectively holding the data hostage.</td>
+        </tr>
+        <tr>
+            <td >124. What is a honeypot?</td>
+            <td >A honeypot is a security resource that appears to be a vulnerable system, designed to attract and deceive attackers, helping to study their methods and improve security.</td>
+        </tr>
+        <tr>
+            <td >125. What is a security incident response plan (SIRP)?</td>
+            <td >A SIRP is a documented approach outlining how an organization will respond to and manage a security incident, including detection, containment, eradication, and recovery processes.</td>
+        </tr>
+        <tr>
+            <td >126. What is penetration testing?</td>
+            <td >Penetration testing is an authorized simulated cyber attack on a system or network to identify vulnerabilities and assess the effectiveness of security measures.</td>
+        </tr>
+        <tr>
+            <td >127. What is a digital forensics investigation?</td>
+            <td >A digital forensics investigation involves the collection, preservation, analysis, and presentation of electronic evidence to support legal proceedings or internal investigations.</td>
+        </tr>
+        <tr>
+            <td >128. What is an access control list (ACL)?</td>
+            <td >An access control list (ACL) is a set of rules that defines who or what is allowed to access resources within a computing environment, such as files, directories, or networks.</td>
+        </tr>
+        <tr>
+            <td >129. What is a security audit?</td>
+            <td >A security audit is a systematic evaluation of an organization's information systems and practices to ensure compliance with security policies and identify potential vulnerabilities.</td>
+        </tr>
+        <tr>
+            <td >130. What is an exploit?</td>
+            <td >An exploit is a piece of software or code that takes advantage of a vulnerability in a system or application to perform unauthorized actions.</td>
+        </tr>
+        <tr>
+            <td >131. What is a vulnerability assessment?</td>
+            <td >A vulnerability assessment is a systematic evaluation of a system or application to identify security weaknesses and recommend measures to mitigate them.</td>
+        </tr>
+        <tr>
+            <td >132. What is a secure coding practice?</td>
+            <td >Secure coding practices are guidelines and techniques aimed at preventing security vulnerabilities during the software development process, ensuring the creation of robust and secure applications.</td>
+        </tr>
+        <tr>
+            <td >133. What is the role of a chief information security officer (CISO)?</td>
+            <td >A CISO is an executive responsible for establishing and maintaining an organization's information security strategy, policies, and procedures to protect its information assets.</td>
+        </tr>
+        <tr>
+            <td >134. What is an incident report?</td>
+            <td >An incident report is a documented account of a security incident, detailing the nature of the incident, the response actions taken, and recommendations for future prevention.</td>
+        </tr>
+        <tr>
+            <td >135. What is a security operations center (SOC)?</td>
+            <td >A security operations center (SOC) is a centralized unit that monitors, detects, responds to, and mitigates security incidents in real time to protect an organization’s information systems.</td>
+        </tr>
+        <tr>
+            <td >136. What is a threat vector?</td>
+            <td >A threat vector is a path or method used by cybercriminals to exploit vulnerabilities and gain unauthorized access to a system or network.</td>
+        </tr>
+        <tr>
+            <td >137. What is patch management?</td>
+            <td >Patch management is the process of managing updates for software applications and technologies, including applying patches to fix vulnerabilities and improve functionality.</td>
+        </tr>
+        <tr>
+            <td >138. What is network segmentation?</td>
+            <td >Network segmentation involves dividing a computer network into smaller, isolated segments to improve performance, security, and management.</td>
+        </tr>
+        <tr>
+            <td >139. What is a security breach notification?</td>
+            <td >A security breach notification is a formal communication informing affected parties of a data breach, detailing the nature of the breach and steps being taken to address it.</td>
+        </tr>
+        <tr>
+            <td >140. What is a security token?</td>
+            <td >A security token is a physical or digital device used to authenticate a user’s identity and provide secure access to a system or application, often used in two-factor authentication.</td>
+        </tr>
+        <tr>
+            <td >141. What is a digital certificate?</td>
+            <td >A digital certificate is an electronic document used to prove the ownership of a public key, containing information about the key, its owner, and the digital signature of an authority.</td>
+        </tr>
+        <tr>
+            <td >142. What is an application security testing?</td>
+            <td >Application security testing involves evaluating applications for vulnerabilities and security weaknesses through various methods, such as static analysis, dynamic analysis, and penetration testing.</td>
+        </tr>
+        <tr>
+            <td >143. What is a supply chain attack?</td>
+            <td >A supply chain attack targets the vulnerabilities within the supply chain of an organization, compromising third-party vendors or service providers to gain access to the primary target.</td>
+        </tr>
+        <tr>
+            <td >144. What is the difference between a vulnerability and a threat?</td>
+            <td >A vulnerability is a weakness in a system or application that can be exploited by threats, while a threat is a potential danger that could exploit a vulnerability to cause harm.</td>
+        </tr>
+        <tr>
+            <td >145. What is a security framework?</td>
+            <td >A security framework is a structured set of guidelines and best practices that organizations use to manage and mitigate cybersecurity risks, often aligned with regulatory requirements.</td>
+        </tr>
+        <tr>
+            <td >146. What is data loss prevention (DLP)?</td>
+            <td >Data loss prevention (DLP) refers to strategies and tools used to prevent sensitive data from being lost, misused, or accessed by unauthorized users.</td>
+        </tr>
+        <tr>
+            <td >147. What is an endpoint security?</td>
+            <td >Endpoint security refers to a strategy focused on protecting devices (endpoints) connected to a network, such as laptops, smartphones, and servers, from security threats.</td>
+        </tr>
+        <tr>
+            <td >148. What is a cybersecurity incident?</td>
+            <td >A cybersecurity incident is any event that compromises the confidentiality, integrity, or availability of an organization's information or systems.</td>
+        </tr>
+        <tr>
+            <td >149. What is a threat landscape?</td>
+            <td >The threat landscape refers to the evolving environment of potential threats and vulnerabilities that organizations must navigate to protect their information assets.</td>
+        </tr>
+        <tr>
+            <td >150. What is security information and event management (SIEM)?</td>
+            <td >SIEM is a security solution that aggregates and analyzes security data from across an organization’s network in real time, providing insights into potential security threats.</td>
+        </tr>
+        <tr>
+            <td >151. What is a security incident?</td>
+            <td >A security incident is an event that compromises the integrity, confidentiality, or availability of an organization’s information, often requiring a response.</td>
+        </tr>
+        <tr>
+            <td >152. What is a cyber attack?</td>
+            <td >A cyber attack is any attempt to gain unauthorized access to a computer system, network, or data, often with the intent to steal, damage, or disrupt.</td>
+        </tr>
+        <tr>
+            <td>153. What is incident response?</td>
+            <td>Incident response is the process of identifying, managing, and mitigating security incidents, ensuring that an organization can recover and prevent future occurrences.</td>
+        </tr>
+      </table>
+      
+     
+</body>
+</html>
